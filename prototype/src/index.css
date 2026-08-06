@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+@import "tailwindcss/theme.css";
+
+
+@theme {
+  --color-back: #13111c;
+  --color-white-100: #dcdce0;
+  --color-white-200: #f2f1f3;
+
+  --spacing: 1rem;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-back);
+  }
+}
+
+#test {
+  padding: 20px;
+  margin: 20px;
+}
